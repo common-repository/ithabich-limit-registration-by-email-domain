@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LimitRegistrationByMailDomain\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Language-Team: Deutsch\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: 2023-02-02 12:39+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-28 21:37+0000\n"
+"Last-Translator: \n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: src/Views/Backend/MainView.php:42
+msgid "(leave the field blank)"
+msgstr "(Feld leer lassen)"
+
+#: src/Backend/Settings.php:38
+msgid "Allowed Mail Domains"
+msgstr "Erlaubte Mail-Domains"
+
+#: src/Core/Sanitization.php:36
+#| msgid ""
+#| "Allowed Mail Domains need to be a comma-separated list, a single Domain "
+#| "or a complete empty field."
+msgid ""
+"Allowed Mail Domains need to be a comma-seperated list, a single Domain or a "
+"complete empty field."
+msgstr ""
+"Erlaubte Mail-Domains müssen eine durch Kommas getrennte Liste, eine "
+"einzelne Domain oder ein komplett leeres Feld sein."
+
+#: src/Views/Backend/MainView.php:41
+msgid "Blank field"
+msgstr "Leeres Feld"
+
+#: src/Views/Backend/MainView.php:33
+msgid "Comma-separated list of email domains"
+msgstr "Durch Kommas getrennte Liste von E-Mail-Domains"
+
+#: src/Views/Backend/MainView.php:47
+msgid "Examples of Incorrect Input:"
+msgstr "Beispiele für falsche Eingabe:"
+
+#: src/Views/Backend/MainView.php:25
+msgid ""
+"However, please keep in mind that it only regulates the registration for "
+"WordPress Core. Other plugins, such as 2FA-plugins, BuddyPress, or "
+"WooCommerce, may alter the registration process in a way that may affect the "
+"settings of this plugin."
+msgstr ""
+"Bitte beachten Sie jedoch, dass es nur die Registrierung für WordPress Core "
+"regelt. Andere Plugins, wie z.B. 2FA-Plugins, BuddyPress oder WooCommerce, "
+"können den Registrierungsprozess auf eine Weise verändern, die die "
+"Einstellungen dieses Plugins beeinflussen kann."
+
+#. Author URI of the plugin
+msgid "https://it-habich.de"
+msgstr "https://it-habich.de"
+
+#. URI of the plugin
+msgid ""
+"https://it-habich.de/wp-plugin-ithabich-limit-registration-by-email-domain"
+msgstr ""
+"https://it-habich.de/wp-plugin-ithabich-limit-registration-by-email-domain"
+
+#: src/Views/Backend/MainView.php:27
+msgid ""
+"In the input field, you can enter either a comma-separated list of domains, "
+"a single domain name, or a blank field. The latter resets the setting and no "
+"longer filters. Please note that the domains must always begin with an @ "
+"symbol."
+msgstr ""
+"Im Eingabefeld können Sie entweder eine durch Kommas getrennte Liste von "
+"Domains, einen einzelnen Domainnamen oder ein leeres Feld eingeben. "
+"Letzteres setzt die Einstellung zurück und filtert nicht mehr. Bitte "
+"beachten Sie, dass die Domains immer mit einem @-Zeichen beginnen müssen."
+
+#: src/Views/Backend/MainView.php:30
+msgid "Input Options:"
+msgstr "Eingabeoptionen:"
+
+#. Author of the plugin
+msgid "IT-Habich - Frederic Roggon"
+msgstr "IT-Habich - Frederic Roggon"
+
+#: src/Views/Backend/MainView.php:11
+#| msgid "Limit Registration By Mail Domain"
+msgid "Limit registration by mail domain"
+msgstr "Limit der Registrierung nach Mail-Domain"
+
+#: src/Backend/Settings.php:31
+#| msgid "Limit Registration By Mail Domain Settings"
+msgid "Limit registration by mail domain - Settings"
+msgstr "Limit der Registrierung nach Mail-Domain - Einstellungen"
+
+#. Description of the plugin
+msgid ""
+"Limit Registration By Mail Domain to ensure only certain users can register "
+"at your WordPress site."
+msgstr ""
+"Begrenzen Sie die Registrierung nach Mail-Domain, um sicherzustellen, dass "
+"sich nur bestimmte Benutzer auf Ihrer WordPress-Seite registrieren können."
+
+#. Name of the plugin
+msgid "LimitRegistrationByMailDomain"
+msgstr "LimitRegistrationByMailDomain"
+
+#: src/Views/Backend/MainView.php:22
+msgid "Manage Allowed Email Domains"
+msgstr "Erlaubte E-Mail-Domains verwalten"
+
+#: src/Views/Backend/MainView.php:49
+msgid "Missing \"@\" symbol before the domain name"
+msgstr "Fehlendes \"@\"-Zeichen vor dem Domainnamen"
+
+#: src/Backend/Settings.php:31
+msgid "Registration limit by mail domain"
+msgstr "Registrierungslimit nach Mail Domain"
+
+#: src/Views/Backend/MainView.php:37
+msgid "Single domain name"
+msgstr "Einzelner Domainname"
+
+#: src/Views/Backend/MainView.php:50
+msgid "Space after the \"@\" symbol"
+msgstr "Leerzeichen nach dem \"@\"-Zeichen"
+
+#: src/Views/Backend/MainView.php:26
+msgid ""
+"Therefore, it is important to thoroughly check that the restrictions are "
+"functioning as desired after any changes."
+msgstr ""
+"Daher ist es wichtig, nach jeder Änderung sicherzustellen, dass die "
+"Einschränkungen wie gewünscht funktionieren."
+
+#: src/Views/Backend/MainView.php:24
+msgid ""
+"With this WordPress plugin, managing the allowed email domains for "
+"registration is easy and flexible."
+msgstr ""
+"Mit diesem WordPress-Plugin ist die Verwaltung der erlaubten E-Mail-Domains "
+"für die Registrierung einfach und flexibel."
+
+#: src/Core/Sanitization.php:12
+msgid ""
+"You are not allowed to change this setting. Please contact your "
+"Administrator."
+msgstr ""
+"Sie sind nicht berechtigt, diese Einstellung zu ändern. Bitte wenden Sie "
+"sich an Ihren Administrator."
+
+#: src/Actions/FilterRegistration.php:35
+msgid "You are not allowed to register."
+msgstr "Sie sind nicht berechtigt, sich zu registrieren."
